@@ -1,0 +1,40 @@
+﻿@using UBTTestCode.ViewModels
+@model AccountViewModel
+
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>@Model.PageTitle</h2>
+@Html.BeginForm("LoginPostBack", "Account", FormMethod.Post)
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-sm-4">
+                    @Html.LabelFor(model => model.User.UserName)
+                </div>
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.User.UserName)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    @Html.LabelFor(model => model.User.Password)
+                </div>
+                <div class="col-sm-8">
+                    @Html.EditorFor(model => model.User.Password)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+</div>
+
