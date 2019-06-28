@@ -7,9 +7,7 @@ namespace PlanAParty
     public class PartyPlanImpl : IPartyPlan
     {
         private DataContext _context;
-        private int? _totalParticipants;
-        private int _organizers = 5;
-
+ 
 
         public PartyPlanImpl(DataContext context)
         {
