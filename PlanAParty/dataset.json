@@ -1,0 +1,702 @@
+[
+  {
+    "Name": "Emilia",
+    "Age": 7,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Ofelia",
+    "Age": 13,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Gerda",
+    "Age": 3,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Jemima",
+    "Age": 14,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Zuzana",
+    "Age": 7,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Cosette",
+    "Age": 9,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Cybil",
+    "Age": 13,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Bert",
+    "Age": 9,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Wendye",
+    "Age": 5,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Karita",
+    "Age": 8,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Dominique",
+    "Age": 4,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Marie",
+    "Age": 8,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Rosemary",
+    "Age": 8,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Claudina",
+    "Age": 13,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Gerrilee",
+    "Age": 4,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Venita",
+    "Age": 6,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Gussi",
+    "Age": 5,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Stevana",
+    "Age": 8,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Arden",
+    "Age": 10,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Katharina",
+    "Age": 6,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Kelly",
+    "Age": 11,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Hanny",
+    "Age": 13,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Agretha",
+    "Age": 12,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Fan",
+    "Age": 12,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Daphne",
+    "Age": 13,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Hatti",
+    "Age": 3,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Eulalie",
+    "Age": 11,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Stormie",
+    "Age": 10,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Cynthie",
+    "Age": 12,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Gale",
+    "Age": 3,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Norri",
+    "Age": 7,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Jenica",
+    "Age": 3,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Nerta",
+    "Age": 6,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Shirleen",
+    "Age": 10,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Allys",
+    "Age": 11,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Gloriana",
+    "Age": 9,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Mercie",
+    "Age": 14,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Kim",
+    "Age": 7,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Tommy",
+    "Age": 9,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Valentia",
+    "Age": 10,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Grayce",
+    "Age": 7,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Nana",
+    "Age": 13,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Kyla",
+    "Age": 11,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Tallie",
+    "Age": 3,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Dina",
+    "Age": 6,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Ernaline",
+    "Age": 6,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Arliene",
+    "Age": 8,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Kacie",
+    "Age": 10,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Kristine",
+    "Age": 10,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Stefa",
+    "Age": 7,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Carolynn",
+    "Age": 11,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Jodie",
+    "Age": 7,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Joletta",
+    "Age": 12,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Flora",
+    "Age": 14,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Hannis",
+    "Age": 12,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Hally",
+    "Age": 8,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Judi",
+    "Age": 10,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Patience",
+    "Age": 8,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Annetta",
+    "Age": 12,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Afton",
+    "Age": 10,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Carlita",
+    "Age": 8,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Vallie",
+    "Age": 11,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Bianca",
+    "Age": 10,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Ginny",
+    "Age": 10,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Coleen",
+    "Age": 5,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Beilul",
+    "Age": 5,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Amalita",
+    "Age": 6,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Ardella",
+    "Age": 4,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Anatola",
+    "Age": 14,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Dori",
+    "Age": 10,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Janifer",
+    "Age": 9,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Bebe",
+    "Age": 6,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Merrielle",
+    "Age": 14,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Robinette",
+    "Age": 13,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Belia",
+    "Age": 12,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Karissa",
+    "Age": 14,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Trudy",
+    "Age": 3,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Carin",
+    "Age": 4,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Viviene",
+    "Age": 3,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Allina",
+    "Age": 11,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Patty",
+    "Age": 11,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Zaneta",
+    "Age": 5,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Marja",
+    "Age": 9,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Martha",
+    "Age": 10,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Emelda",
+    "Age": 3,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Lindy",
+    "Age": 9,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  },
+  {
+    "Name": "Margaret",
+    "Age": 10,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Sharona",
+    "Age": 12,
+    "FavoriteColor": 5,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "June",
+    "Age": 8,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 0
+  },
+  {
+    "Name": "Amberly",
+    "Age": 5,
+    "FavoriteColor": 1,
+    "FavoriteIceCream": 3,
+    "Gender": 0
+  },
+  {
+    "Name": "Michelle",
+    "Age": 10,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Deva",
+    "Age": 4,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Lorrin",
+    "Age": 13,
+    "FavoriteColor": 0,
+    "FavoriteIceCream": 1,
+    "Gender": 0
+  },
+  {
+    "Name": "Iormina",
+    "Age": 4,
+    "FavoriteColor": 2,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Lavena",
+    "Age": 4,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Aurel",
+    "Age": 6,
+    "FavoriteColor": 4,
+    "FavoriteIceCream": 3,
+    "Gender": 1
+  },
+  {
+    "Name": "Jemie",
+    "Age": 11,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 1,
+    "Gender": 1
+  },
+  {
+    "Name": "Shantee",
+    "Age": 9,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 0,
+    "Gender": 1
+  },
+  {
+    "Name": "Beverley",
+    "Age": 10,
+    "FavoriteColor": 3,
+    "FavoriteIceCream": 2,
+    "Gender": 0
+  },
+  {
+    "Name": "Alissa",
+    "Age": 10,
+    "FavoriteColor": 6,
+    "FavoriteIceCream": 2,
+    "Gender": 1
+  }
+]

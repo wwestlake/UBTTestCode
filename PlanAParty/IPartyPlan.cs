@@ -19,6 +19,10 @@ namespace PlanAParty
     ///                    of their favorite ice cream.
     /// 4. TotalSandwitches: There musst be suffient sandwitches such that each child gets 1 sandwitch
     /// 5. Coffee:  There must be suffience coffee for all adults present including the organizers
+    /// 6. Boys get a blue party hat
+    ///    girls get a pink party hat
+    ///    organizers get a green party hat
+    ///    parents get a yellow party hat
     /// </summary>
     public interface IPartyPlan
     {
@@ -52,6 +56,7 @@ namespace PlanAParty
         /// <returns>The total number of scoops</returns>
         int TotalIceCreamScoops(IceCream iceCream);
 
+
         /// <summary>
         /// The total number of sanwitches
         /// </summary>
@@ -61,5 +66,10 @@ namespace PlanAParty
         /// The total number of cups of coffee
         /// </summary>
         int Coffee { get; }
+
+        int Hats(Colors color);
+
+        int TotalHats { get; }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,50 +10,56 @@ namespace PlanAParty
     public class DataContext
     {
         readonly Random _rand = new Random(10);
+        private IQueryable<Attendee> _attendees;
 
-        public IList<string> Names
-        {
-            get
-            {
-                return ParseFile("FirstNames.txt").Result;
-            }
-        }
-
-        public IEnumerable<string> RandomNames(int qty)
-        {
-            var names = Names;
-            var max = names.Count - 1;
-
-            for (int i = 0; i < qty; i++)
-            {
-                yield return names[_rand.Next(max)];
-            }
-
-        }
 
         public IQueryable<Attendee> Attendees
         {
             get
             {
-                return RandomNames(100).Select(x => {
-                    return new Attendee
-                    {
-                        Name = x,
-                        FavoriteColor = RandomEnum<Colors>(),
-                        FavoriteIceCream = RandomEnum<IceCream>(),
-                        Age = _rand.Next(3, 14),
-                        Gender = RandomEnum<Gender>()
-                    };
-                }).AsQueryable<Attendee>();
+                if (_attendees != null) return _attendees;
+                using (var file = File.OpenText("dataset.json"))
+                {
+                    var serializer = JsonSerializer.Create();
+                    var reader = new JsonTextReader(file);
+                    _attendees = serializer.Deserialize<List<Attendee>>(reader).AsQueryable();
+                }
+                return _attendees;
             }
         }
 
-        // Private Methods
+        // Private Methods (used only to generate database
+
+
+        private async Task<IList<string>> Names()
+        {
+            return await ParseFileAsync("FirstNames.txt");
+        }
+
+        private async Task<IEnumerable<string>> RandomNames(int qty)
+        {
+            var names = await Names();
+            var max = names.Count;
+            return names.OrderBy(x => _rand.Next(max)).Take(qty);
+        }
+
 
         private T RandomEnum<T>()
         {
             Array values = Enum.GetValues(typeof(T));
             return (T)values.GetValue(_rand.Next(values.Length));
+        }
+
+        private async Task<List<string>> ParseFileAsync(string filename)
+        {
+            var content = await ReadFile(filename);
+            return await ParseFile(content);
+        }
+
+        private Task<List<string>> ParseFile(string text)
+        {
+            var lines = text.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+            return Task.FromResult(lines.ToList());
         }
 
         private async Task<string> ReadFile(string filename)
@@ -63,13 +70,5 @@ namespace PlanAParty
                 return await reader.ReadToEndAsync();
             }
         }
-
-        private async Task<List<string>> ParseFile(string filename)
-        {
-            var content = await ReadFile(filename);
-            var lines = content.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-            return lines.ToList();
-        }
-
-    }
+   }
 }

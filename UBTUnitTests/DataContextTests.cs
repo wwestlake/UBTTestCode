@@ -20,16 +20,10 @@ namespace UBTUnitTests
         [TestMethod]
         public void DataContext_returns_list_of_names()
         {
-            var names = _context.Names;
-            Assert.AreEqual(4945, names.Count);
-        }
-
-        [TestMethod]
-        public void DataContext_returns_list_of_random_names_as_count()
-        {
-            var names = _context.RandomNames(100);
+            var names = _context.Attendees;
             Assert.AreEqual(100, names.Count());
         }
 
+ 
     }
 }

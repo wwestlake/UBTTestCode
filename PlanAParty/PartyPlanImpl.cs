@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PlanAParty
 {
     public class PartyPlanImpl : IPartyPlan
     {
         private DataContext _context;
+        private int? _totalParticipants;
+        private int _organizers = 5;
+
 
         public PartyPlanImpl(DataContext context)
         {
@@ -64,5 +69,44 @@ namespace PlanAParty
         {
             throw new NotImplementedException();
         }
+
+        public int Hats(Colors color)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int TotalHats
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        // Private members use as needed
+
+        private IEnumerable<Colors> HatColors
+        {
+            get
+            {
+                return Enumerate<Colors>().Where(
+                    x => x == Colors.Blue
+                    || x == Colors.Green
+                    || x == Colors.Pink
+                    || x == Colors.Yellow
+                );
+            }
+        }
+
+        private IEnumerable<T> Enumerate<T>()
+        {
+            var values = Enum.GetValues(typeof(T));
+            foreach (var val in values)
+            {
+                yield return (T)val;
+            }
+
+        }
+
     }
 }
